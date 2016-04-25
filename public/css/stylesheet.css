@@ -1,0 +1,31 @@
+/*body{
+
+/*This is the right hand side, card stack*/
+#mainicon{
+  height:50%;
+  width:50%;
+  background: url("../images/homeicon.jpeg");
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  margin:0 auto;
+  border-radius: 25px;
+  text-align:center;
+}
+
+#buttonsection{
+height: 50%;
+  width:50%;
+}
+
+
+
+#loginbutton{
+    height: 100%;
+  width:100%;
+
+}
+
+#regbutton{
+  height: 100%;
+  width:100%;
+}

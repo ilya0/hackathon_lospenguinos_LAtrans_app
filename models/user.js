@@ -1,5 +1,7 @@
 var mongoose = require('mongoose');
 
+
+/// user schema
 var UserSchema = mongoose.Schema({
   name: {type: String, required: true },
   walkpoints: { type: Number, default:0},

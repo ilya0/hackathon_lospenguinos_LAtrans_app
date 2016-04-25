@@ -1,12 +1,17 @@
 var User = require('../models/user');
 var users = {};
 
-// users.index = function(req, res) {
-//   User.find({}, function(err, users) {
-//     if (err) return res.json(err);
-//     res.json(users);
-//   });
-// }
+
+//methods for the routes
+
+users.index = function(req, res) {
+  User.find({}, function(err, users) {
+    if (err) return res.json(err);
+
+     res.render('../user_views/index.ejs', {users: users});
+   // res.json(users);
+  });
+};
 
 // users.create = function(req, res) {
 //   var title = req.body.title;
