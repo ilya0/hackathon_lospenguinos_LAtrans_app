@@ -28,7 +28,7 @@ height: 50%;
 }
 
 .regbutton{
-  text-align:center;
+
   height: 100%;
   width:100%;
 }
@@ -38,15 +38,31 @@ height: 50%;
 }
 
 .walkpointblock{
-  border: 5px solid red;
+  text-align:center;
+  border: 5px solid black;
 }
 
 .userrewardsblock{
+   text-align:center;
   padding: 10px;
   border-style: 10px solid black;
 }
 
 .block{
+   text-align:center;
   border-style: 10px solid black;
 }
+.ridesblock{
+      margin-left: 7%;
 }
+
+.userprofimg{
+  width:100%;
+  height:10%;
+}
+
+.pointguageimg{
+  width: 100%;
+  height: 50%;
+}
+
